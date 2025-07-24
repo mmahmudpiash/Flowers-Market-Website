@@ -1,0 +1,161 @@
+/* All Common Css Start */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif", serif;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0,8;
+}
+ul,ol{
+    list-style-type: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.display-flex{
+    display: flex;
+}
+/* All common Css End */
+
+/* Heading Part Start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+nav img {
+    cursor: pointer;
+}
+nav ul {
+    gap: 50px;
+}
+nav ul li a {
+    color: black;
+    font-size: 22px;
+}
+nav ul li a:hover{
+    color: rgb(2, 27, 255);
+}
+.cart{
+    align-items: center;
+}
+.cart i{
+    font-size: 22px;
+}
+.cart a p{
+    color: black;
+    margin-left: 10px;
+    font-size: 22px;
+}
+.cart a p:hover{
+    color: rgb(2, 27, 255);
+}
+/* Heading Part End */
+
+/* Banner Part Start */
+
+#bannerPart{
+    padding: 100px 0px;
+}
+.bannerTitle h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #E95A08;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+.bannerTitle h1 span{
+    color: black;
+}
+.bannerTitle p{
+    width: 558px;
+    font-size: 22px;
+    color: black;
+}
+.bannerImg img{
+    height: 360px;
+    width: 500px;
+}
+
+/* Banner Part End */
+
+/* Cart Part Start */
+
+.plantsTittle{
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plantsTittle h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.plantsTittle h1 span{
+    color: #E95A08;
+}
+.plantsTittle p{
+    font-size: 22px;
+    font-weight: 500px;
+}
+.cartFlex{
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.cartBox{
+    width: 270px;
+    padding: 15px;
+   box-shadow: 0px 0px 5px 5px rgba(212,212,212,0.7);
+-webkit-box-shadow: 0px 0px 5px 5px rgba(212,212,212,0.7);
+-moz-box-shadow: 0px 0px 5px 5px rgba(212,212,212,0.7);
+border-radius: 10px 10px 0px 0px;
+}
+.cartBox img{
+    width: 100%;
+}
+.boxText{
+    text-align: center;
+}
+.boxText h3{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
+.boxText h5{
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+.cardBtn {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 50px;
+    background-color: #E95A08;
+    color: white;
+}
+
+/* Cart part End */
+
+/* Plants Lover Part Start */
+
+#plantsPart{
+    padding: 100px 0px;
+}
