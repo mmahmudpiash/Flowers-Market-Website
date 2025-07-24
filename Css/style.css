@@ -157,5 +157,220 @@ border-radius: 10px 10px 0px 0px;
 /* Plants Lover Part Start */
 
 #plantsPart{
+    padding: 150px 0px;
+}
+.plantImg{
+    position: relative;
+}
+.plantImg .badge{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+    top: -110px;
+    right: -95px;
+}
+.plantFlex{
+    justify-content: space-between;
+}
+.plnatBoxText h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    width: 500px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+.plnatBoxText ul{
+    width: 500px;
+}
+.plnatBoxText ul {
+   list-style: disc;
+   margin-left: 30px;
+
+}
+.plnatBoxText li p{
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 15px;
+}
+/* Plants Lover Part End */
+
+/* Deals Part Start */
+
+.dealspartTittle {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.dealspartTittle h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+}
+.dealspartTittle span{
+    color: #E95A08;
+}
+.dealspartTittle p{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.dealsimgBox{
+   margin-top: 50px;
+   margin-bottom: 50px;
+   display: flex;
+   justify-content: space-between;
+}
+.imgBox{
+    width: 35%;
+    
+}
+.imgOne{
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url('../Images/deal-ana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.imgOne h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 130px;
+}
+.imgOne p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.imgTwo{
+    height: 300px;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url('../Images/deal-bloom.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.imgTwo h1{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 130px;
+}
+.imgTwo p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.imgBoxTwo{
+    width: 60%;
+}
+.bigImg{
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0,0,0,0.4)), url('../Images/deal-zabo.png');
+    height: 650px ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.bigImg h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 250px;
+}
+.bigImg p{
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Deals Part End */
+
+/* Colorful Brunch Start */
+
+#joinPart {
+    padding: 300px;
+    width: 100%;
+    background-image: url('../Images/news-letter-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: relative;
+}
+.jointpartTittle {
+    text-align: center;
+}
+.jointpartTittle h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    height: 50px;
+    width: 700px;
+    border: none;
+}
+button{
+    padding: 16px 30px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    cursor: pointer;
+}
+
+/* Colorful Brunch End */
+
+/* Footer Part Start */
+
+#footerPart{
     padding: 100px 0px;
 }
+.footerElements{
+    display: flex;
+    justify-content: space-between;
+}
+.footerLeft img {
+    cursor: pointer;
+}
+.footerLeft p{
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+    width: 370px;
+    margin-top: 20px;
+}
+.footerMiddale ul li a{
+    color: black;
+    font-weight:500;
+    margin-bottom: 25px;
+}
+.footerRight img{
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+/* Footer Part End */
