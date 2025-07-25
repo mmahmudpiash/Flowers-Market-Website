@@ -155,8 +155,9 @@ border-radius: 10px 10px 0px 0px;
 /* Cart part End */
 
 /* Plants Lover Part Start */
-
- 
+#plantsLover{
+    padding: 100px 0px;
+}
 .plantImg{
     position: relative;
 }
