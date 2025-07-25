@@ -29,7 +29,7 @@
   }
   .bannerImg img{
     height: 300px;
-    width: auto;
+    width: 100%;
   }
   .bannerTitle{
     padding: 30px;
@@ -83,7 +83,7 @@
 }
 .cardBtn{
   font-size: 14px;
-  padding: 10px 25px;
+  padding: 10px 10px;
 }
 
 /* Cart Part End */
@@ -184,11 +184,19 @@ button{
 
 /* Footer Part Start */
 
-
-
-
-
-
-
+#footerPart{
+    padding: 50px 15px;
+}
+.footerElements{
+    display: flex;
+    flex-direction: column;
+}
+.footerLeft p{
+    font-size: 16px;
+    width: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Footer Part End */
 
 }
