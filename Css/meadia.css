@@ -1,9 +1,71 @@
 
-@media screen and (max-width: 576px){
 
 
-    #headPart{
-        
-    }
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+
+  /* Heading Part Start */
+
+   nav{
+     display: flex;
+     padding: 20px 30px;
+   }
+   nav ul li{
+    display:  none;
+   }
+
+  
+  /* Heading Part End */
+
+  /*Banner Part Start */
+
+  #bannerPart{
+    padding: 20px 0px;
+  }
+  .bannerFlex{
+    display: flex;
+    flex-direction:column;
+    flex-direction: column-reverse;
+  }
+  .bannerImg img{
+    height: 300px;
+    width: auto;
+  }
+  .bannerTitle{
+    padding: 30px;
+  }
+  .bannerTitle h1{
+    font-size: 35px;
+    font-weight: bold;
+    color: #E95A08;
+  }
+  .bannerTitle p{
+     width: 100%;
+    font-size: 14px;
+    color: black;
+  }
+
+  /* Banner Part End */
+
+  /* Cart Part Start */
+
+  .plantsTittle{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.plantsTittle h1{
+    font-size: 25px;
+}
+.plantsTittle p{
+    font-size: 14px;
+    font-weight: 500px;
+    margin-top: 15px;
+}
+
+
+
+
+
 
 }
