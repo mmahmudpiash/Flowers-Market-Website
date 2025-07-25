@@ -62,6 +62,129 @@
     font-weight: 500px;
     margin-top: 15px;
 }
+.cartFlex{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.cartFlex{
+  margin: 0 auto;
+  
+}
+.cartBox{
+  width: 90%;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.boxText h3{
+  font-size: 18px;
+}
+.boxText h5{
+  font-size: 16px;
+}
+.cardBtn{
+  font-size: 14px;
+  padding: 10px 25px;
+}
+
+/* Cart Part End */
+
+/* Plants Lover Part Start */
+
+#plantsPart{
+    padding: 50px 15px;
+}
+.plantFlex{
+    display: flex;
+    flex-direction: column;
+}
+.plantImg img {
+  height: 400px;
+  width: 100%;
+}
+.badge{
+  display: none;
+}
+.plnatBoxText h1{
+    font-size: 30px;
+}
+.plnatBoxText ul{
+    width: auto;
+}
+.plnatBoxText li p{
+    font-size: 18px;
+}
+
+/* Plants Lover Part End */
+
+/* Deals Part Start */
+
+.dealspartTittle {
+    width: auto;
+    padding: 0px 20px;
+}
+.dealspartTittle h1{
+    font-size: 35px;
+}
+.dealspartTittle p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.dealsimgBox{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 20px;
+}
+.imgBox{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.imgBoxTwo{
+  width: 100%;
+}
+.bigImg{
+  height: 300px;
+}
+.bigImg h1{
+  font-size: 20px;
+  padding-top: 130px;
+}
+.bigImg p{
+  font-size: 18px;
+}
+
+/* Deals Part End */
+
+/* Colorful Brunch Start */
+
+#joinPart {
+    padding: 100px 0px;
+}
+.jointpartTittle {
+    text-align: center;
+}
+.jointpartTittle h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+input{
+    height: 40px;
+    width: 250px;
+}
+button{
+    padding: 11px 20px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    cursor: pointer;
+}
+
+/* Colorful Brunch End */
+
+/* Footer Part Start */
+
+
 
 
 
